@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - T Mohamed Yaser</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2815a7015d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/Logo3.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi I'm <span>T Mohamed Yaser</span> <br> from India</h1>
+            </div>
+        </div>
+    </div>
+    <!----------About Section---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/vegeta.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>- I graduated from Nampally Government College of Boys, now pursuing Computer Science Engineering at 
+                        Lords Institute of Engineering and Technology. <br>
+                       - I've self-studied HTML and CSS, mainly through YouTube tutorials, crafting responsive web designs. <br>
+                       - Proficient in C, thanks to LIET's structured learning, enhancing problem-solving and logical thinking skills.</p>
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Courses</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                       </div>
+                       
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Design</span><br>Proficient in HTML,CSS and moderate in JS.</li>
+                            <li><span>Programming Languages</span><br>C and Python.</li>
+                            <li><span>Digital Networking</span><br>Building professional connections virtually.</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internet of Things</span><br>IoT: Devices online!  Connects things to collect data.</li>
+                            <li><span>Cloud Computing</span><br>Cloud computing: Accessing computer power over the internet, like renting instead of owning.</li>
+                            <li><span>Generative AI</span><br>Generative AI: Creating new content, like art or text, using computer programs.</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>High School</span><br>St. Mary's High School (Vijaynagar Colony, Masab Tank, Hyderabad).</li>
+                            <li><span>Intermediate</span><br>Government Junior College For Boys ( Bazar Ghat, Nampally, Hyderabad).</li>
+                            <li><span>Engineering</span><br>Lords Institute of Engineering & Technology (Himayath sagar, Hyderabad).</li>
+                        </ul>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------service----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web designing is the process of creating visually appealing and functional websites using a combination of creativity and technical skills. It involves crafting layouts, graphics, and user interfaces using tools like HTML, CSS, and JavaScript to deliver an engaging online experience.</p>
+                    <a href="https://www.codecademy.com/learn/intro-to-ui-ux" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>Programming languages</h2>
+                    <p>Programming languages are vital tools for developers, enabling communication with computers. They vary from versatile options like Python and JavaScript to specialized ones like C, each with unique strengths. C, known for efficiency, is popular in system programming and performance-critical tasks. Mastery of multiple languages equips developers for diverse challenges and fosters innovation.</p>
+                    <a href="https://www.sololearn.com/en/" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-arrows-to-circle"></i>
+                    <h2>Content Creation</h2>
+                    <p>Craft concise study guides for academic success, delivering clear summaries. Engage audiences with informative presentations, captivating attention through visual aids and well-structured content. Share passions via blogs and social media, fostering discussions while attributing sources for credibility and integrity.</p>
+                    <a href="https://in.indeed.com/career-advice/career-development/what-is-content-creation#:~:text=Content%20creation%20is%20the%20process,provide%20value%20to%20your%20readers." target="_blank">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------portfolio------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Transferable skills</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/leader.jpg">
+                    <div class="layer">
+                        <h3>Professional Agile Leadership</h3>
+                        <p>Professional Agile Leadership empowers teams to embrace Agile principles fully. Leaders cultivate collaboration, transparency, and adaptability, aligning organizational goals with Agile values to drive innovation and success in dynamic environments.</p>
+                        <a href="https://resources.scrumalliance.org/Article/agile-leader-in-any-role#:~:text=An%20agile%20leader%20is%20someone,a%20leader%20in%20any%20role." target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/bitcoin.jpg">
+                    <div class="layer">
+                        <h3>Blockchain and Cryptocurrency</h3>
+                        <p>Blockchain is a decentralized digital ledger technology that securely records transactions across multiple computers. Cryptocurrency, like Bitcoin, operates on blockchain, enabling secure peer-to-peer transactions without intermediaries, using cryptographic techniques to ensure integrity and anonymity.</p>
+                        <a href="https://www.pwc.com/us/en/industries/financial-services/fintech/bitcoin-blockchain-cryptocurrency.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/digit.jpg">
+                    <div class="layer">
+                        <h3>Digital Networking</h3>
+                        <p>Digital networking involves connecting people online through platforms like social media, professional networks, and online communities. It facilitates communication, collaboration, and relationship-building across geographical boundaries, enabling individuals to share ideas, opportunities, and resources effectively.</p>
+                        <a href="https://www2.deloitte.com/us/en/pages/chief-marketing-officer/articles/creating-relationships-through-digital-networking.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-----------contact--------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> 1ammar.yaser@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9390176961</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/profile.php?id=61558544917584" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/4Grimmjaw04" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/tmohamedyaser/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mohamedyaser08/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="img/Yaser resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Yaser. Made with <i class="fa-solid fa-heart"></i> HTML,CSS and JS</p>
+            <h6>This will transfer you to 3rd party sites</h6>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwJNF-_VCLXC1a3EOGmVGvEDThTt-6gBxSsdEniVQyD0IYgYx7Pp7vbOp5AeHnHkzKN0g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },2000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
